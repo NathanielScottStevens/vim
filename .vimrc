@@ -27,7 +27,11 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-classpath'
 Plugin 'vim-scripts/paredit.vim'
 Plugin 'JamshedVesuna/vim-markdown-preview'
-" Plugin 'guns/vim-clojure-static'
-
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-airline/vim-airline'
 call vundle#end()            
 filetype plugin indent on   
