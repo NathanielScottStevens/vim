@@ -6,11 +6,8 @@ set expandtab
 set smartindent 
 set clipboard=unnamed
 
-if has('gui_running')
-    colorscheme evening 
-else
-    colorscheme desert
-endif
+colorscheme desert 
+let g:airline_theme='badwolf'
 
 " Vundle
 set nocompatible              
@@ -33,5 +30,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()            
 filetype plugin indent on   
