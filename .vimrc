@@ -3,11 +3,9 @@ set tabstop=4
 set relativenumber
 set shiftwidth=4
 set expandtab
-set smartindent 
+set smartindent
 set clipboard=unnamed
 
-colorscheme desert 
-let g:airline_theme='badwolf'
 
 " Vundle
 set nocompatible              
@@ -36,3 +34,7 @@ Plugin 'guns/vim-clojure-highlight'
 Plugin 'tpope/vim-fugitive'
 call vundle#end()            
 filetype plugin indent on   
+
+" Airline
+let g:airline_theme='papercolor'
+let g:airline_powerline_fonts=1
