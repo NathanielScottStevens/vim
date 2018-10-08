@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/Users/nathaniel.stevens/projects/roman-numerals'
 let g:netrw_dirhist_2='/Users/nathaniel.stevens/go/src/hello/Logzzz/20180626/233302 - SPD_ENT_T2_Entitlement_Facility_ShipTo_Extract.qvw'
 let g:netrw_dirhist_3='/Users/nathaniel.stevens/.vim'
+let g:netrw_dirhist_4='/home/nathaniel/projects/economy/test/economy'

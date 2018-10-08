@@ -32,9 +32,14 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'guns/vim-clojure-static'
 Plugin 'guns/vim-clojure-highlight'
 Plugin 'tpope/vim-fugitive'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
 call vundle#end()            
 filetype plugin indent on   
 
 " Airline
 let g:airline_theme='papercolor'
 let g:airline_powerline_fonts=1
+
+" NerdTree
+map <F2> :NERDTreeToggle<CR>
