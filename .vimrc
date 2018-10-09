@@ -34,6 +34,7 @@ Plugin 'guns/vim-clojure-highlight'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'mhinz/vim-startify'
 call vundle#end()            
 filetype plugin indent on   
 
