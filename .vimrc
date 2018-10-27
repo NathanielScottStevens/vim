@@ -35,6 +35,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mhinz/vim-startify'
+Plugin 'elixir-editors/vim-elixir'
 call vundle#end()            
 filetype plugin indent on   
 
